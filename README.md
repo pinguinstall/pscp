@@ -26,3 +26,6 @@ options:
 # requirements
 The softweare depends only on the Python standard library (e.g., `argparse`, `subprocess`, `multiprocessing`, `os`, `sys`, `time`, `random`, `pathlib`). So there are no third-party Python packages required.
 Both systems however need `rsync` and `openssh-client`, installed. The respective "server" also needs `openssh-server` installed. (This is the same as in the non-parallel scp or remote rsync case)
+
+# a word of caution
+The software is tested, but it might contain bugs which (in the worst case) will destroy all your data. Please be careful if using the software in production environments, use backups and the usual precautions.
