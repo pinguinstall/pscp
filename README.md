@@ -20,6 +20,8 @@ options:
   -v, --verbose         print every rsync command
   -x, --dryrun          print commands without transferring
 ```
+## example
+`python3 pscp2.py -s remoteuser@dataport1.example.de:/data/mydata/ -d /my/dest/dir/ -t 6 -w 5.0 -v`
 
 # requirements
 The softweare depends only on the Python standard library (e.g., `argparse`, `subprocess`, `multiprocessing`, `os`, `sys`, `time`, `random`, `pathlib`). So there are no third-party Python packages required.
